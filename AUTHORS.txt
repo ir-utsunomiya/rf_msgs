@@ -1,7 +1,7 @@
 wifid is developed by the instrumentation and robotics laboratory (計測・ロボット工学 研究室) at utsunomiya university
 https://www.ir.utsunomiya-u.ac.jp/
 
-wifid authors:
+rf_msgs authors:
 
 Core developer:
 - Renato Miyagusuku (miyagusuku at cc.utsunomiya-u.ac.jp)
