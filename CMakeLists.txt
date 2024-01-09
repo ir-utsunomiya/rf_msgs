@@ -8,6 +8,7 @@ add_compile_options(-std=c++11)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  roscpp
   std_msgs
   message_generation
 )
@@ -48,9 +49,10 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(DIRECTORY msg
 		  FILES Rss.msg
-      FILES WifiData.msg
-      FILES WifiDataArray.msg
-      FILES NodePair.msg
+      FILES WifiNodeData.msg
+      FILES NodeDataArray.msg
+      FILES DetectionPair.msg
+      FILES PoseData.msg
 )
 
 ## Generate services in the 'srv' folder

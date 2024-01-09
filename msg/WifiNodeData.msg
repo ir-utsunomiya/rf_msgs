@@ -1,2 +1,2 @@
 string macaddress
-int16 strength
+float32 strength
